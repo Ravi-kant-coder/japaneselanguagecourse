@@ -42,10 +42,10 @@ const Footer = () => {
           <div>
             <h2 className="text-lg font-semibold mb-5">Contact Us</h2>
             <ul className="space-y-3 text-gray-300 text-sm">
-              <li>1-7-20 Global Hiring Dept.</li>
-              <li>Tokyo, Japan</li>
+              <li>H-4, Hudson Lane, GTB Nagar</li>
+              <li>New Delhi 110009, India</li>
               <li className="hover:text-white cursor-pointer">
-                info@nihongomaxtalent.com
+                nihongomaxtalent@gmail.com
               </li>
             </ul>
           </div>

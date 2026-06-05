@@ -81,10 +81,10 @@ export default function ContactPage() {
               Business Hours <span className="font-normal">営業時間</span>
             </h3>
             <p className="text-gray-600">
-              Mon–Fri: 9:00 AM – 6:00 PM (INDIA Time)
+              Mon–Fri: 10:00 AM – 5:00 PM (INDIA Time)
             </p>
             <p className="jp text-gray-600">
-              月曜日～金曜日：午前9時～午後6時 (インド時間帯)
+              月曜日～金曜日：午前10時～午後5時 (インド時間帯)
             </p>
           </div>
         </div>
