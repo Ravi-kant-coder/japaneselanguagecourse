@@ -20,7 +20,10 @@ export default function ContactPage() {
 
       <section className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
         <div className="bg-gray-50 p-8 rounded-xl shadow-sm">
-          <h2 className="text-xl font-semibold mb-6">Send us a message</h2>
+          <h2 className="text-xl font-semibold mb-6">
+            Send us a message{" "}
+            <span className="font-normal">メッセージお願いいたします。</span>
+          </h2>
 
           <form className="space-y-5">
             <div>
@@ -32,7 +35,9 @@ export default function ContactPage() {
             </div>
 
             <div>
-              <label className="block text-sm mb-1">Email</label>
+              <label className="block text-sm mb-1">
+                Email / メールアドレス
+              </label>
               <input
                 type="email"
                 className="w-full border rounded-lg px-4 py-2 focus:ring-2 focus:ring-red-500"
@@ -55,8 +60,8 @@ export default function ContactPage() {
               />
             </div>
 
-            <button className="w-full bg-red-600 text-white py-3 rounded-lg hover:bg-red-700">
-              Send Message
+            <button className="w-full bg-red-600 text-white py-3 rounded-lg hover:bg-red-700 cursor-pointer transition-colors">
+              Send 送信
             </button>
           </form>
         </div>
@@ -64,13 +69,17 @@ export default function ContactPage() {
         {/* INFO */}
         <div className="space-y-8">
           <div>
-            <h3 className="text-lg font-semibold mb-2">Contact Info</h3>
-            <p className="text-gray-600">contact@nihongomaxtalent.com</p>
-            <p className="text-gray-600">+91-7678461209</p>
+            <h3 className="text-lg font-semibold mb-2">
+              Contact Info <span className="font-normal">連絡先</span>
+            </h3>
+            <p className="text-gray-600">nihongomaxtalent@gmail.com</p>
+            <p className="text-gray-600">+91-7805092279</p>
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-2">Business Hours</h3>
+            <h3 className="text-lg font-semibold mb-2">
+              Business Hours <span className="font-normal">営業時間</span>
+            </h3>
             <p className="text-gray-600">
               Mon–Fri: 9:00 AM – 6:00 PM (INDIA Time)
             </p>
