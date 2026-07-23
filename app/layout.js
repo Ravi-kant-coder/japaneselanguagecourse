@@ -16,9 +16,9 @@ const notoJP = Noto_Sans_JP({
 });
 
 export const metadata = {
-  title: "Hire Japanese Speaking IT Engineers | Nihongo Max Talent",
+  title: "Learn Japanese for JLPT",
   description:
-    "We provide highly skilled IT engineers from India trained in Japanese language (JLPT) and culture.",
+    "We provide highly effective Japanese language (JLPT) and culture training.",
   icons: {
     icon: "/sakura.png",
   },
@@ -32,7 +32,9 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col font-sans">
         <Header />
-        {children}
+
+        <main className="flex-1 pt-25">{children}</main>
+
         <Footer />
       </body>
     </html>

@@ -1,5 +1,4 @@
 "use client";
-import Dropdown from "./components/Dropdown";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -9,25 +8,27 @@ const Header = () => {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "Services", href: "/services" },
-    { name: "Talent", href: "/talent" },
-    { name: "Max-3", href: "/max-3" },
+    { name: "Japanese Courses", href: "/courses" },
     { name: "Contact us", href: "/contact" },
   ];
 
   return (
-    <header className="w-full bg-gray-100 shadow-md flex flex-col md:flex-row mx-auto px-4 md:px-16 py-3 items-center justify-between">
-      <div className="flex items-center justify-between">
+    <header
+      className="fixed flex flex-col md:flex-row mx-auto items-center justify-between top-0 left-0 w-full 
+    z-50 bg-gray-100 md:px-8 py-4"
+    >
+      <div className="items-center justify-between hidden md:flex">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/logo.png"
+            src="/Logo-Japanese-language-course.png"
             alt="Nihongo Max Talent Logo"
-            width={180}
-            height={60}
+            width={250}
+            height={150}
             priority
           />
         </Link>
       </div>
+      <p className="text-bold text-black md:text-2xl">Call NOW - 7678461209</p>
       <nav className="flex flex-wrap md:gap-20 gap-4 text-[14px] md:text-lg font-medium">
         {navLinks.map((link) => {
           const isActive =
@@ -49,7 +50,6 @@ const Header = () => {
             </Link>
           );
         })}
-        <Dropdown />
       </nav>
     </header>
   );

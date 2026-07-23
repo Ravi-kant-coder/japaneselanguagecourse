@@ -2,33 +2,33 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Hire Japanese Speaking IT Engineers | Nihongomax Talent",
+  title: "Learn Japanese for JLPT",
   description:
-    "We provide highly skilled IT engineers from India trained in Japanese language (JLPT) and culture. Hire job-ready developers for Japan.",
+    "We provide highly effective Japanese language (JLPT) and culture training.",
   icons: {
-    icon: "/sakura.png",
+    icon: "/fujisan.png",
   },
   keywords: [
-    "Japanese speaking developers",
-    "Hire IT engineers Japan",
-    "JLPT engineers India",
-    "Offshore developers Japan",
+    "Japanese language course",
+    "Study Visa for Japan",
+    "JLPT",
+    "Study Japanese language",
   ],
   alternates: {
-    canonical: "https://www.nihongomaxtalent.com",
+    canonical: "https://www.japaneselanguagecourse.com",
   },
   openGraph: {
-    title: "Hire Japanese Speaking Developers | Nihongo Max Talent",
+    title: "Learn Japanese Language | Japanese Language Course",
     description:
-      "Hire JLPT-certified IT engineers from India. Japanese-ready developers for companies in Japan.",
-    url: "https://www.nihongomaxtalent.com",
-    siteName: "Nihongomax Talent",
+      "We provide highly effective Japanese language (JLPT) and culture training.",
+    url: "https://www.japaneselanguagecourse.com",
+    siteName: "Japanese Language Course",
     images: [
       {
-        url: "fujisan.png",
+        url: "Logo-Japanese-language-course.png",
         width: 1200,
         height: 630,
-        alt: "Japanese language classroom in Delhi",
+        alt: "Japanese language in Delhi",
       },
     ],
     locale: "en_IN",
@@ -36,14 +36,14 @@ export const metadata = {
   },
 };
 
-export default function NihongomaxTalent() {
+export default function JapaneseLanguageCourse() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
     description:
-      "We provide Japanese-speaking IT engineers from India trained in JLPT and Japanese work culture.",
-    name: "Nihongomax Talent",
-    url: "https://www.nihongomaxtalent.com",
+      "We provide highly effective Japanese language (JLPT) and culture training.",
+    name: "Japanese Language Course",
+    url: "https://www.japaneselanguagecourse.com",
     telephone: "+91-7678461209",
     address: {
       "@type": "PostalAddress",
@@ -62,26 +62,20 @@ export default function NihongomaxTalent() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <section className="w-full flex items-center justify-center">
+      <section className="w-full flex items-center justify-center md:mt-10 px-4">
         <div className="grid md:grid-cols-2 gap-10 items-center max-w-7xl w-full">
-          {/* LEFT CONTENT */}
-          <div className="space-y-6">
-            <h1 className="text-3xl md:text-5xl font-bold leading-tight text-gray-900">
-              Hire Japanese-Ready <br />
-              IT Talent from India
+          <div className="space-y-4">
+            <h1 className="text-xl md:text-4xl">
+              Best Japanese Language Courses <br />
+              from NIHONGOMAX
             </h1>
-
-            <p className="text-lg text-gray-600">
-              Skilled engineers trained in Japanese language, culture, and
-              real-world development.
-            </p>
-
+            <h2 className="md:text-xl md:mb-8">With lowest Cost in India</h2>
             <div className="flex gap-4">
               <Link
-                href="/talent"
+                href="/contact"
                 className="bg-red-700 text-white px-6 py-3 rounded-lg hover:bg-red-900 cursor-pointer font-bold"
               >
-                Request Talent Profiles
+                Take a FREE Demo
               </Link>
               <Link
                 href="/contact"
@@ -92,10 +86,121 @@ export default function NihongomaxTalent() {
             </div>
           </div>
 
-          {/* RIGHT IMAGE + VERTICAL TEXT */}
+          <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden">
+            <Image
+              src="/nihongomax-institute.jpeg"
+              alt="Japanese language Course in Delhi"
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="object-cover"
+              priority
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="pt-20 pb-10 bg-gray-50 px-6 md:px-16">
+        <div className="max-w-4xl mx-auto text-center space-y-6">
+          <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">
+            After a few years of experience, students get jobs where they earn
+            <br /> 5 Million Yen per year in Japan
+          </h2>
+
+          <p className="text-gray-600 text-xl">
+            By learning Japanese language you can land with a Job in Japanese
+            companies in India or even in Japan.
+            <br /> Our courses focus on Japanese language (JLPT) with Japanese
+            business etiquette and Japanese work environments training.
+          </p>
+        </div>
+      </section>
+
+      <section className="py-10 px-6 md:px-16">
+        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10">
+          <div>
+            <h3 className="text-xl font-semibold mb-4">
+              Nihongomax Japanese Language Course in Delhi
+            </h3>
+            <ul className="text-gray-700 leading-relaxed list-disc pl-5 space-y-2 text-xl">
+              <li>
+                Besides many other things, Nihongomax is famous for its three
+                qualities. Fastest curriculum, lowest costs and Best results.
+              </li>
+              <li>
+                Lowest Costs incurred. We understand the heart of a student. By
+                our experience we know that the cost charged at any other place
+                is very high compared to their services offered.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-semibold mb-4">
+              Nihongomax Best Japanese Institute
+            </h3>
+            <ul className="text-gray-700 leading-relaxed list-disc pl-5 space-y-2 text-xl">
+              <li>
+                Great Ambience. Reason of good results. Here a student is not
+                treated as once fee payment is done, we forgot you! Every
+                student is cared by the trainer for its performance and doubts
+                regularly so as to keep up the motivation alive.
+              </li>
+              <li>
+                Fastest Curriculum Offered. No time waste! You get instant
+                start-up with everything like course schedule, components and
+                tests explained by our experienced trainers once you are
+                enrolled.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-gray-200 text-center px-6 md:px-16">
+        <h2 className="text-2xl md:text-3xl font-semibold mb-6">
+          Ready to Take a FREE trial class?
+        </h2>
+        <p className="mb-8 text-gray-700">
+          Connect with us and get FREE Japanese trial class classes so that you
+          can judge us better.
+        </p>
+        <Link
+          href="/talent"
+          className="bg-red-600 px-8 py-3 rounded-lg hover:bg-red-700 transition cursor-pointer text-white font-bold"
+        >
+          Get FREE Demo Class
+        </Link>
+      </section>
+      <section className="w-full flex items-center justify-center md:mt-10 px-4">
+        <div className="hidden md:grid md:grid-cols-2 gap-10 items-center max-w-7xl w-full">
+          {/* LEFT CONTENT */}
+          <div className="space-y-4">
+            <h1 className="text-xl md:text-4xl">
+              Attend class and ask questions <br />
+              from Teachers
+            </h1>
+            <h2 className="text-xl md:mb-8 md:text-2xl">
+              And get your all doubts cleared
+            </h2>
+            <div className="flex gap-4">
+              <Link
+                href="/contact"
+                className="bg-red-700 text-white px-6 py-3 rounded-lg hover:bg-red-900 cursor-pointer font-bold"
+              >
+                Take a FREE Demo
+              </Link>
+              <Link
+                href="/contact"
+                className="border border-gray-400 px-6 py-3 rounded-lg hover:bg-gray-300 cursor-pointer "
+              >
+                Contact Us
+              </Link>
+            </div>
+          </div>
+
           <div className="relative w-full h-[400px] md:h-[660px]">
             <Image
-              src="/artForm.png"
+              src="/Japanese-language-course.png"
               alt="IT engineers From India trained in Japanese language and culture"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -103,7 +208,6 @@ export default function NihongomaxTalent() {
               priority
             />
 
-            {/* VERTICAL JAPANESE TEXT */}
             <div className="absolute -left-4 top-10 text-black">
               <p
                 className="text-2xl md:text-3xl font-semibold tracking-widest jp"
@@ -112,281 +216,103 @@ export default function NihongomaxTalent() {
                   textOrientation: "upright",
                 }}
               >
-                最高の人材で
-                <br />
-                ITエンジニアの
-                <br />
-                採用課題を解決します。
+                日本語を勉強しましょう。
               </p>
             </div>
           </div>
         </div>
       </section>
-
-      {/* QUOTE / TRUST SECTION */}
-      <section className="py-20 bg-gray-50 px-6 md:px-16">
-        <div className="max-w-4xl mx-auto text-center space-y-6">
-          <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">
-            Bridging India and Japan Through Talent
-          </h2>
-
-          <p className="text-gray-600 text-lg">
-            We specialize in providing IT engineers who are not only technically
-            skilled but also culturally aligned with Japanese work standards and
-            Japanese Language.
-          </p>
-
-          <blockquote className="text-xl text-gray-700">
-            人材だけではなく、信頼を提供します。
-          </blockquote>
-
-          <p className="text-gray-500">
-            We don’t just provide talent — we deliver trust.
-          </p>
-        </div>
-      </section>
-
-      {/* BILINGUAL SECTION */}
-      <section className="py-20 px-6 md:px-16">
-        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10">
-          {/* ENGLISH */}
-          <div>
-            <h3 className="text-xl font-semibold mb-4">
-              For Japanese Companies
-            </h3>
-            <p className="text-gray-600 leading-relaxed">
-              We understand the challenges of hiring skilled engineers in Japan.
-              Our candidates are trained in Japanese language (JLPT), business
-              etiquette, and modern tech stacks like MERN, ensuring smooth
-              communication and productivity.
-            </p>
-          </div>
-
-          {/* JAPANESE */}
-          <div>
-            <h3 className="text-xl font-semibold mb-4">日本企業向け</h3>
-            <p className="text-gray-600 leading-relaxed jp">
-              日本でのエンジニア採用の課題を理解しています。
-              当社の人材は、日本語能力（JLPT）とビジネスマナー、
-              そして最新のITスキルを備えており、スムーズな業務遂行を実現します。
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-20 bg-gray-200 text-center px-6 md:px-16">
-        <h2 className="text-2xl md:text-3xl font-semibold mb-6">
-          Ready to Hire Skilled Engineers?
-        </h2>
-        <p className="mb-8 text-gray-700">
-          Connect with us and get access to pre-screened Japanese-speaking
-          developers.
-        </p>
-        <Link
-          href="/talent"
-          className="bg-red-600 px-8 py-3 rounded-lg hover:bg-red-700 transition cursor-pointer text-white font-bold"
-        >
-          Get Candidates
-        </Link>
-      </section>
-
       <section className="px-6 md:px-16">
-        <h1 className="text-4xl text-center font-semibold pt-10">
-          Data & AI Engineers Ready for Japan
+        <h1 className="text-4xl text-center font-semibold p-10">
+          What levels you will achieve in our Japanese Language Course
         </h1>
-        <h2 className="text-2xl text-center font-semibold py-8">
-          日本で活躍できるデータ・AIエンジニア
-        </h2>
-
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-2 md:gap-30">
           <div>
             <div>
-              <h3 className="text-xl font-semibold mb-4">Core IT Roles</h3>
-              <ul className="mb-8 space-y-2">
-                <li className="flex justify-between">
-                  <span>Full Stack Developer</span>
-                  <span className="jp text-gray-600">
-                    フルスタックエンジニア
-                  </span>
-                </li>
-
-                <li className="flex justify-between">
-                  <span>Frontend Developer</span>
-                  <span className="jp text-gray-600">
-                    フロントエンドエンジニア
-                  </span>
-                </li>
-
-                <li className="flex justify-between">
-                  <span>Backend Developer</span>
-                  <span className="jp text-gray-600">
-                    バックエンドエンジニア
-                  </span>
-                </li>
-
-                <li className="flex justify-between">
-                  <span>Software Engineer</span>
-                  <span className="jp text-gray-600">
-                    ソフトウェアエンジニア
-                  </span>
-                </li>
-
-                <li className="flex justify-between">
-                  <span>Web Developer</span>
-                  <span className="jp text-gray-600">Webエンジニア</span>
-                </li>
-              </ul>
+              <h3 className="text-xl font-semibold mb-4">
+                Begginers japanese (JLPT N5)
+              </h3>
+              <p className="mb-4">
+                {" "}
+                JLPT N5 will be CRACKED! A student is able to read listen and
+                recognize each word given in JLPT N5 so that the exam is easily
+                cracked This course enables one to frame basic sentences.
+                Hiragana, katakana, and 110 kanji are understood. He can
+                communicate on a fundamental level. For Example: I go to office
+                everyday at 8 am. Though I work with a travel company, I don’t
+                like to visit overseas. Would you like to have dinner with me? I
+                plan to travel Japan next month. My Job is very tough.
+              </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold mb-4">Cloud & DevOps</h3>
-              <ul className="mb-8 space-y-2">
-                <li className="flex justify-between">
-                  <span>DevOps Engineer</span>
-                  <span className="jp text-gray-600">DevOpsエンジニア</span>
-                </li>
-
-                <li className="flex justify-between">
-                  <span>Cloud Engineer</span>
-                  <span className="jp text-gray-600">クラウドエンジニア</span>
-                </li>
-
-                <li className="flex justify-between">
-                  <span>AWS Engineer</span>
-                  <span className="jp text-gray-600">AWSエンジニア</span>
-                </li>
-
-                <li className="flex justify-between">
-                  <span>Site Reliability Engineer (SRE)</span>
-                  <span className="jp text-gray-600">SREエンジニア</span>
-                </li>
-
-                <li className="flex justify-between">
-                  <span>Infrastructure Engineer</span>
-                  <span className="jp text-gray-600">インフラエンジニア</span>
-                </li>
-              </ul>
+              <h3 className="text-xl font-semibold mb-4">
+                Basic japanese (JLPT N4)
+              </h3>
+              <p className="mb-4">
+                {" "}
+                JLPT N4 will be CRACKED! This is the continuation of N5. After
+                this course, one is able to read and understand passages on
+                familiar daily topics written in basic vocabulary and KANJI. One
+                is able to generally follow the contents of Japanese sentences,
+                provided that they are spoken slowly. He can communicate on a
+                basic level. For Example: Since we are new in Japan, we don’t
+                know the traffic rules so we should take due care while roaming
+                there.
+              </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold mb-4">Data & AI</h3>
-              <ul className="mb-8 space-y-2">
-                <li className="flex justify-between">
-                  <span>AI Engineer</span>
-                  <span className="jp text-gray-600">AIエンジニア</span>
-                </li>
-                <li className="flex justify-between">
-                  <span>Data Scientist</span>
-                  <span className="jp text-gray-600">
-                    データサイエンティスト
-                  </span>
-                </li>
-
-                <li className="flex justify-between">
-                  <span>Machine Learning Engineer</span>
-                  <span className="jp text-gray-600">機械学習エンジニア</span>
-                </li>
-
-                <li className="flex justify-between">
-                  <span>Big Data Engineer</span>
-                  <span className="jp text-gray-600">
-                    ビッグデータエンジニア
-                  </span>
-                </li>
-
-                <li className="flex justify-between">
-                  <span>Database Administrator</span>
-                  <span className="jp text-gray-600">データベース管理者</span>
-                </li>
-              </ul>
+              <h3 className="text-xl font-semibold mb-4">
+                Intermediate Japanese (JLPT N3)
+              </h3>
+              <p className="mb-4">
+                {" "}
+                JLPT N3 will be CRACKED! One is able to read and understand
+                written materials with specific contents concerning everyday
+                topics. Also, one is also able to read slightly difficult
+                writings encountered in everyday situations and understand the
+                main points of the content if some alternative phrases are
+                available to aid one’s understanding. This course It enhances
+                the communication level which helps in getting a starting job in
+                Japanese companies.
+              </p>
             </div>
           </div>
 
           <div>
             <div>
-              <h3 className="text-xl font-semibold mb-4">Security</h3>
-              <ul className="mb-8 space-y-2">
-                <li className="flex justify-between">
-                  <span>Cybersecurity Engineer</span>
-                  <span className="jp text-gray-600">
-                    セキュリティエンジニア
-                  </span>
-                </li>
-
-                <li className="flex justify-between">
-                  <span>Network Security Engineer</span>
-                  <span className="jp text-gray-600">
-                    ネットワークエンジニア
-                  </span>
-                </li>
-              </ul>
+              <h3 className="text-xl font-semibold mb-4">
+                Advanced Japanese (JLPT N2)
+              </h3>
+              <p className="mb-4">
+                {" "}
+                JLPT N2 will be CRACKED! This course helps one to be able to
+                read written materials on general topics and follow their
+                narratives as well as understand the intent of the writers. One
+                is able to comprehend orally presented materials such as
+                coherent conversations and news reports, spoken at nearly
+                natural speed in everyday situations as well as in a variety of
+                settings. It completes the communication level sufficient to get
+                a highly paid job in Japanese companies and in Japan.
+              </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold mb-4">Mobile & UI</h3>
-              <ul className="mb-8 space-y-2">
-                <li className="flex justify-between">
-                  <span>Mobile App Developer</span>
-                  <span className="jp text-gray-600">モバイルアプリ開発者</span>
-                </li>
-
-                <li className="flex justify-between">
-                  <span>Android Developer</span>
-                  <span className="jp text-gray-600">アンドロイド開発者</span>
-                </li>
-                <li className="flex justify-between">
-                  <span>iOS Developer</span>
-                  <span className="jp text-gray-600">iOS開発者</span>
-                </li>
-                <li className="flex justify-between">
-                  <span>UI/UX Designer</span>
-                  <span className="jp text-gray-600">UI/UXデザイナー</span>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold mb-4">Emerging Tech</h3>
-              <ul className="mb-8 space-y-2">
-                <li className="flex justify-between">
-                  <span>IoT Engineer</span>
-                  <span className="jp text-gray-600">IoTエンジニア</span>
-                </li>
-
-                <li className="flex justify-between">
-                  <span>Blockchain Developer</span>
-                  <span className="jp text-gray-600">
-                    ブロックチェーン開発者
-                  </span>
-                </li>
-                <li className="flex justify-between">
-                  <span>AR/VR Developer</span>
-                  <span className="jp text-gray-600">AR/VR開発者</span>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold mb-4">Systems & Hardware</h3>
-              <ul className="mb-8 space-y-2">
-                <li className="flex justify-between">
-                  <span>Embedded Systems Engineer</span>
-                  <span className="jp text-gray-600">
-                    組み込みシステムエンジニア
-                  </span>
-                </li>
-
-                <li className="flex justify-between">
-                  <span>System Administrator</span>
-                  <span className="jp text-gray-600">システム管理者</span>
-                </li>
-                <li className="flex justify-between">
-                  <span>Network Engineer</span>
-                  <span className="jp text-gray-600">
-                    ネットワークエンジニア
-                  </span>
-                </li>
-
-                <li className="flex justify-between">
-                  <span>SAP Engineer</span>
-                  <span className="jp text-gray-600">SAPエンジニア</span>
-                </li>
-              </ul>
+              <h3 className="text-xl font-semibold mb-4">
+                Super Advanced Japanese (JLPT N1)
+              </h3>
+              <p className="mb-4">
+                {" "}
+                JLPT N1 will be CRACKED! One is able to read Japanese writings
+                with logical complexity and/or abstract writings on a variety of
+                topics, such as newspaper editorials and critiques, coherent
+                conversations, news reports and lectures, spoken at natural
+                speed in a broad variety of settings, and is able to follow
+                their ideas and comprehend both their structures and contents
+                comprehensively. One is also able to understand the details of
+                the presented materials such as the relationships among the
+                people involved the logical structures, and the essential
+                points. It completes the communication level sufficient to get a
+                highly paid job in Japanese companies and in Japan.
+              </p>
             </div>
           </div>
 
@@ -402,56 +328,6 @@ export default function NihongomaxTalent() {
           <div className="relative w-full h-[200px] md:h-[400px] overflow-hidden">
             <Image
               src="/zombieing.png"
-              alt="IT engineers from India trained in Japanese language and culture"
-              className="object-cover"
-              width={400}
-              height={400}
-            />
-          </div>
-        </div>
-      </section>
-      <section className="px-6 md:px-16 pt-10 mt-10">
-        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10">
-          {/* ENGLISH */}
-          <div>
-            <h3 className="text-xl font-semibold">
-              Our Expertise in Japanese-Ready Talent
-            </h3>
-            <p className="text-gray-600 leading-relaxed">
-              At Nihongomax Talent, we specialize in connecting Japanese
-              companies with highly skilled IT professionals from India who are
-              not only technically proficient but also culturally and
-              linguistically prepared to work in Japanese business environments.
-              Our candidates undergo structured training in modern technologies
-              such as full-stack development, alongside focused preparation in
-              Japanese language (JLPT) and workplace communication. This ensures
-              smooth collaboration, reduced onboarding time, and long-term
-              productivity.
-            </p>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-semibold">日本企業向けの専門知識</h3>
-            <p className="text-gray-600 leading-relaxed jp">
-              Nihongomax
-              Talentでは、日本企業とインドの優秀なIT人材をつなぐサービスを提供しています。当社のエンジニアは、
-              高い技術力を持つだけでなく、日本語能力（JLPT）やビジネス文化への理解も備えており、
-              日本企業の環境で円滑に業務を行うことができます。最新のITスキルに加え、
-              日本語や職場でのコミュニケーション能力を体系的にトレーニングすることで、スムーズな連携と高い生産性を実現します。
-            </p>
-          </div>
-          <div className="relative w-full h-[200px] md:h-[400px] overflow-hidden">
-            <Image
-              src="/meditating.png"
-              alt="IT engineers from India trained in Japanese language and culture"
-              className="object-cover"
-              width={400}
-              height={400}
-            />
-          </div>
-          <div className="relative w-full h-[200px] md:h-[400px] overflow-hidden">
-            <Image
-              src="/coffee.gif"
               alt="IT engineers from India trained in Japanese language and culture"
               className="object-cover"
               width={400}
