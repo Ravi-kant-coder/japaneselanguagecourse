@@ -229,7 +229,7 @@ export default function JapaneseLanguageCourse() {
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-2 md:gap-30">
           <div>
             <div>
-              <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden">
+              <div className="relative w-full aspect-[4/1] rounded-3xl overflow-hidden">
                 <Image
                   src="/JLPT-N5.png"
                   alt="Japanese language Course in Delhi"
@@ -255,7 +255,7 @@ export default function JapaneseLanguageCourse() {
               </p>
             </div>
             <div>
-              <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden">
+              <div className="relative w-full aspect-[4/1] rounded-3xl overflow-hidden">
                 <Image
                   src="/JLPT-N4.png"
                   alt="Japanese language Course in Delhi"
@@ -281,7 +281,7 @@ export default function JapaneseLanguageCourse() {
               </p>
             </div>
             <div>
-              <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden">
+              <div className="relative w-full aspect-[4/1] rounded-3xl overflow-hidden">
                 <Image
                   src="/JLPT-N3.png"
                   alt="Japanese language Course in Delhi"
@@ -310,7 +310,7 @@ export default function JapaneseLanguageCourse() {
 
           <div>
             <div>
-              <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden">
+              <div className="relative w-full aspect-[4/1] rounded-3xl overflow-hidden">
                 <Image
                   src="/JLPT-N2.png"
                   alt="Japanese language Course in Delhi"
@@ -336,7 +336,7 @@ export default function JapaneseLanguageCourse() {
               </p>
             </div>
             <div>
-              <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden">
+              <div className="relative w-full aspect-[4/1] rounded-3xl overflow-hidden">
                 <Image
                   src="/JLPT-N1.png"
                   alt="Japanese language Course in Delhi"

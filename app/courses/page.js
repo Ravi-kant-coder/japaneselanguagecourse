@@ -66,7 +66,7 @@ export default function ServicesPage() {
             key={i}
             className="border rounded-xl p-6 shadow-sm hover:shadow-md transition"
           >
-            <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden">
+            <div className="relative w-full aspect-[4/1] rounded-3xl overflow-hidden">
               <Image
                 src={service.image}
                 alt="Japanese language Course in Delhi"
