@@ -16,7 +16,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 text-center py-6 px-4">
           <p className="text-gray-400 text-sm">
-            © 2026 Nihongomax Talent Pvt. Ltd. All rights reserved.
+            © 2026 Nihongomax. All rights reserved.
           </p>
         </div>
       </footer>

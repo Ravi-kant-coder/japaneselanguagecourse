@@ -1,25 +1,36 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const services = [
   {
     title: "Begginers Japanese (JLPT N5)",
     desc: "Learn Japanese from very basics with Japanese work culture. Like I go to my office daily at 8 AM.",
+    batches: "MWF and SS available",
+    image: "/JLPT-N5.png",
   },
   {
     title: "Basic Japanese (JLPT N4)",
     desc: "Build on your Japanese skills with more complex grammar and vocabulary useful for Interviews.",
+    batches: "MWF and SS available",
+    image: "/JLPT-N4.png",
   },
   {
     title: "Intermediate Japanese (JLPT N3)",
     desc: "Learn the Japanese language up to a level that you can get a Job in India first.",
+    batches: "MWF and SS available",
+    image: "/JLPT-N3.png",
   },
   {
     title: "Advanced Japanese (JLPT N2)",
     desc: "Master the nuances of Japanese language and culture for professional communication and a High Salary.",
+    batches: "SS available",
+    image: "/JLPT-N2.png",
   },
   {
     title: "Super Advanced Japanese (JLPT N1)",
     desc: "This is the highest level of Japanese language and mostly it is not required for most jobs.",
+    batches: "SS available",
+    image: "/JLPT-N1.png",
   },
 ];
 
@@ -55,11 +66,19 @@ export default function ServicesPage() {
             key={i}
             className="border rounded-xl p-6 shadow-sm hover:shadow-md transition"
           >
+            <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden">
+              <Image
+                src={service.image}
+                alt="Japanese language Course in Delhi"
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="object-cover"
+                priority
+              />
+            </div>
             <h3 className="text-lg font-semibold mb-3">{service.title}</h3>
-
-            <p className="text-gray-700 mb-2">{service.desc}</p>
-
-            <p className="jp text-gray-600 text-sm">{service.jp}</p>
+            <p className="mb-2">{service.desc}</p>
+            <p className="mb-2">{service.batches}</p>
           </div>
         ))}
       </section>

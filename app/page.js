@@ -229,8 +229,18 @@ export default function JapaneseLanguageCourse() {
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-2 md:gap-30">
           <div>
             <div>
+              <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden">
+                <Image
+                  src="/JLPT-N5.png"
+                  alt="Japanese language Course in Delhi"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover"
+                  priority
+                />
+              </div>
               <h3 className="text-xl font-semibold mb-4">
-                Begginers japanese (JLPT N5)
+                Beginners japanese (JLPT N5)
               </h3>
               <p className="mb-4">
                 {" "}
@@ -245,6 +255,16 @@ export default function JapaneseLanguageCourse() {
               </p>
             </div>
             <div>
+              <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden">
+                <Image
+                  src="/JLPT-N4.png"
+                  alt="Japanese language Course in Delhi"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover"
+                  priority
+                />
+              </div>
               <h3 className="text-xl font-semibold mb-4">
                 Basic japanese (JLPT N4)
               </h3>
@@ -261,6 +281,16 @@ export default function JapaneseLanguageCourse() {
               </p>
             </div>
             <div>
+              <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden">
+                <Image
+                  src="/JLPT-N3.png"
+                  alt="Japanese language Course in Delhi"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover"
+                  priority
+                />
+              </div>
               <h3 className="text-xl font-semibold mb-4">
                 Intermediate Japanese (JLPT N3)
               </h3>
@@ -280,6 +310,16 @@ export default function JapaneseLanguageCourse() {
 
           <div>
             <div>
+              <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden">
+                <Image
+                  src="/JLPT-N2.png"
+                  alt="Japanese language Course in Delhi"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover"
+                  priority
+                />
+              </div>
               <h3 className="text-xl font-semibold mb-4">
                 Advanced Japanese (JLPT N2)
               </h3>
@@ -296,6 +336,16 @@ export default function JapaneseLanguageCourse() {
               </p>
             </div>
             <div>
+              <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden">
+                <Image
+                  src="/JLPT-N1.png"
+                  alt="Japanese language Course in Delhi"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover"
+                  priority
+                />
+              </div>
               <h3 className="text-xl font-semibold mb-4">
                 Super Advanced Japanese (JLPT N1)
               </h3>
