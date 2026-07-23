@@ -88,7 +88,7 @@ export default function JapaneseLanguageCourse() {
 
           <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden">
             <Image
-              src="/nihongomax-institute.jpeg"
+              src="/nihongomax-institute.jpg"
               alt="Japanese language Course in Delhi"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
