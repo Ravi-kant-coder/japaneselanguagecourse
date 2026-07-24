@@ -29,7 +29,7 @@ export default function ImageMarquee() {
           >
             <Image
               src={src}
-              alt={`Gallery image ${index + 1}`}
+              alt={`Nihongomax Institute image`}
               fill
               sizes="300px"
               className="object-cover"
