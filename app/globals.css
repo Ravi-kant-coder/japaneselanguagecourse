@@ -27,3 +27,25 @@ body {
 .jp {
   font-family: var(--font-jp), sans-serif;
 }
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  gap: 20px;
+  animation: marquee 40s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-50% - 10px));
+  }
+}
+
+/* Optional: pause when mouse is over the images */
+.marquee-track:hover {
+  animation-play-state: paused;
+}

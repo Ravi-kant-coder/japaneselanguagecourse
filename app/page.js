@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import ImageMarquee from "@/components/Marqee";
 
 export const metadata = {
   title: "Learn Japanese for JLPT",
@@ -155,7 +156,7 @@ export default function JapaneseLanguageCourse() {
           </div>
         </div>
       </section>
-
+      <ImageMarquee />
       <section className="py-20 bg-gray-200 text-center px-6 md:px-16">
         <h2 className="text-2xl md:text-3xl font-semibold mb-6">
           Ready to Take a FREE trial class?
@@ -365,27 +366,9 @@ export default function JapaneseLanguageCourse() {
               </p>
             </div>
           </div>
-
-          <div className="relative w-full h-[200px] md:h-[400px] overflow-hidden">
-            <Image
-              src="/groovy.png"
-              alt="IT engineers from India trained in Japanese language and culture"
-              className="object-cover"
-              width={400}
-              height={400}
-            />
-          </div>
-          <div className="relative w-full h-[200px] md:h-[400px] overflow-hidden">
-            <Image
-              src="/zombieing.png"
-              alt="IT engineers from India trained in Japanese language and culture"
-              className="object-cover"
-              width={400}
-              height={400}
-            />
-          </div>
         </div>
       </section>
+      <ImageMarquee />
     </main>
   );
 }
